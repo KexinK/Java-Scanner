@@ -1,0 +1,47 @@
+package KK892515.cs2300.HW04;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author Kexin
+ */
+
+//******************************************************************************
+//
+//HW 04 Scanner Project
+//CS 2300
+//2017 September 20
+//Kexin Kang
+//
+//******************************************************************************
+
+public class HW04Scanner {
+    public static void main (String[]args){
+        System.out.println("HW 04 Scanner Project" );
+        System.out.println("CS 2300");
+        System.out.println("Kexin Kang");
+        System.out.println("");
+        Scanner scanner = new Scanner(System.in);
+       
+        System.out.print ("Enter first double:");
+        double d1=scanner.nextDouble();
+        System.out.println("You entered"+d1);
+        System.out.println("");
+        
+        System.out.print("Enter second double:");
+        double d2 = scanner.nextDouble();
+        System.out.println("You entered"+d2);
+        System.out.println("");
+        
+        System.out.print ("Enter first integer:");
+        int I1=scanner.nextInt();
+        System.out.println("You entered"+I1);
+        System.out.println("");
+        
+        System.out.print ("Enter second integer:");
+        int I2=scanner.nextInt();
+        System.out.println("You entered"+I2);
+    }
+   
+}
